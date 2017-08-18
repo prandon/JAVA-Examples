@@ -1,0 +1,14 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+
+
+1] WAP to create Employee class and create array
+ of 5 objects and display all records
+2] WAP to create find specific record using id from 5 records
+
+
+
+
