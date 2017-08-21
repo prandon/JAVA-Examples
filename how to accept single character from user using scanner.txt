@@ -1,0 +1,17 @@
+@SuppressWarnings("resource")
+Scanner reader = new Scanner(System.in);
+c = reader.next().charAt(0);
+System.out.println(c);
+}while(c=='y'||c=='Y');
+
+
+char c; 
+BufferedReader br = new 
+BufferedReader(new InputStreamReader(System.in)); 
+System.out.println("Enter characters, 'q' to quit."); 
+// read characters 
+do { 
+c = (char) br.read(); 
+System.out.println(c); 
+} while(c != 'q'); 
+} 
