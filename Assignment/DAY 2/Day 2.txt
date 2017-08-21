@@ -1,0 +1,55 @@
+SalesEmployee
+
+sales < 5000
+comm=2% on basicSalary
+
+sales >=5000 & <70000
+comm=3% on basicSalary
+
+sales >=7000 & <10000
+comm=7% on basicSalary
+
+sales >=10000 & <15000
+comm=10% on basicSalary
+
+sales>=15000
+comm=20% on basicSalary
+
+netSalary=basic+commission
+
+
+WageEmployee
+
+int day;
+String month;
+int year;
+int noOfWorkingHrs;
+double totalWages;
+
+
+
+Classes
+Document
+BankDetails
+Employee
+SalesEmployee
+WageEmployee
+
+ZOrganization
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

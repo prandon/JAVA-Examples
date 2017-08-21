@@ -1,0 +1,28 @@
+// WORKING
+
+		Employee e1=new SalesEmployee();
+		e1.displayEmployeeDetails();
+
+		SalesEmployee se1=(SalesEmployee)e1;
+		se1.displaySalesEmployeeDetails();
+		
+		
+
+		
+		
+		/* ARRAY LIST
+
+		Employee e1=new Employee();
+		Employee e2=new Employee();
+		Employee e3=new Employee();
+
+
+		ArrayList<Employee> lst=new ArrayList<Employee>();
+		lst.add(e1);
+		lst.add(e2);
+		lst.add(e3);
+
+		for(int i=0;i<lst.size();i++){
+			lst.get(i).acceptEmployeeDetails();
+		}
+		 */
